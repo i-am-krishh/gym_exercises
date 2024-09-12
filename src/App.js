@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router>
-      <Box sx={{ width: { xs: '100%', sm: '600px', md: '800px' } }} >
+      <Box className="box" width="400px" sx={{ width: { xl: '1488px', xs: '100%', sm: '600px', md: '800px' }}} m="auto" >
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
